@@ -793,8 +793,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: GI_LOGGING_ENABLED_DEBUG
-    Standalone: GI_LOGGING_ENABLED_DEBUG
+    Android: GI_LOGGING_ENABLED_DEBUG;GI_LOGGING_ENABLED_RELEASE
+    Standalone: GI_LOGGING_ENABLED_DEBUG;GI_LOGGING_ENABLED_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
